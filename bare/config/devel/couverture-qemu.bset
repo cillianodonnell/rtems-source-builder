@@ -1,5 +1,5 @@
 #
-# Build set for QEMU
+# Build set for Couverture-QEMU
 #
 
 %define release 1
@@ -7,7 +7,7 @@
 #
 # Name of the package.
 #
-package: qemu-%{qemu_version}-%{_host}-%{release}
+package: couverture-qemu-%{qemu_version}-%{_host}-%{release}
 
 #
 # A magic internal path that would break if changes in the defaults.mc
@@ -21,4 +21,5 @@ devel/gettext-0.18.3.1-1
 devel/libffi-3.0.13-1
 devel/pixman-0.32.4-1
 devel/glib-2.39.3-1
-devel/qemu-git-1
+devel/dtc-1.4.1-1
+devel/couverture-qemu-git-1
